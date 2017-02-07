@@ -4,16 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Ervid Molina</title>
-    <link rel="stylesheet" href="miniproject1-cs.css" type="text/css">
-
+    <link rel="stylesheet" href="miniproject1cs.css" type="text/css">
   </head>
   <body>
-    <script type="text/javascript" src= "miniproject1-js.js">  </script>
-     <h1> cargar imagen </h1>
-     <div id="imagenes">Imagenes</div>
-
-     </div>
-
-     </div>
+    <script src ="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+    </script>
+    <script type="text/javascript" src= "miniproject1js.js">  </script>
+     <h1> CARGAR IMAGENES</h1>
+      <p> Muestra la imagen a la cual se le va a realizar los distintos filtros </p>
+     <div id="imagenes">LOAD IMAGE</div>
+      <p>
+      <canvas id="canvas"><img id="amor" src=""/> </canvas>
+      </p>
+      <p>
+        <input type= "file" multiple= "false" accept="image/*" id="finput" onchange="upload()">
+      </p>
+     <div id="filter">FILTER</div>
+      <p> Filtro que se le pueden realizar a la imagen </p>
+      <p>
+        <input type= "button" value="Grayscale" onclick="Grayfilter()">
+        <input type= "button" value="Red" onclick="Redfilter()">
+        <input type= "button" value="surprise" onclick="surprisefilter()">
+      </p>
+     <div id="reset">RESETFILTER</div>
+     <p>
+       <input type= "button" value="Reset Image" onclick="Resetfilter()">
+     </p>
+     <p> Restablese imagen </p>
   </body>
 </html>
