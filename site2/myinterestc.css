@@ -1,0 +1,43 @@
+*{
+  font-family: sans-serif;
+}
+h1{
+ color:red;
+ font-size:55px;
+}
+h2{
+  color:red;
+  font-size:40px;
+}
+h3{
+  color:red;
+  font-size:30px;
+}
+p{
+  color:purple;
+  font-size: 20px;
+  text-align: justify;
+}
+ol{
+  color:blue;
+  font-size: 20px;
+}
+ul{
+  color:blue;
+  font-size: 20px;
+}
+a{
+  color:blue;
+  font-size: 20px;
+}
+body{
+  background-color:Turquoise;
+}
+#imginteres{
+  width:400px;
+  border: 3px solid black
+}
+.image{
+  width:200px;
+  border: 3px solid black
+}
