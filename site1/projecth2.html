@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Ervid Molina</title>
+    <link rel="stylesheet" href="" type="text/css">
+  </head>
+  <body>
+    <script type="text/javascript" src= "projectj2.js">  </script>
+      <h1> CARGAR IMAGENES</h1>
+    <div id="imagenes">LOAD IMAGE</div>
+      <p>
+        <canvas id="canvas"></canvas>
+      </p>
+      <p>
+      <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" >
+      </p>
+   <div id="filter">FILTER</div>
+      <p> Filtro que se le pueden realizar a la imagen </p>
+      <p>
+      <input type= "button" value="Grayscale" onclick="Grayfilter()"/>
+      <input type= "button" value="Red" onclick="Redfilter()"/>
+      <input type= "button" value="surprise" onclick="surprisefilter()"/>
+      <input type= "button" value="Rainbow" onclick="Rainbowfilter()"/>
+      <input type= "button" value="wimdow" onclick="Wimdowfilter()"/>
+      <input type= "button" value="random" onclick="Randomfilter()"/>
+      </p>
+   <div id="reset">RESETFILTER</div>
+      <p>
+      <input type= "button" value="Reset Image" onclick="Resetfilter()"/>
+      </p>
+      <p> Restablese imagen </p>
+
+</body>
+</html>
